@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        ANURAG SHARMA
+
+        <div class="links">
+        <button id="home">Home</button>
+        <button id="about">About</button>
+        <button id="skill">Skills</button>
+        <button id="projects">Projects</button>
+        <button id="contact">Contact</button>
+        </div>
+    </header>
+    <div class="body">
+        <div class="home">
+            <p>Hello, My Name is</p>
+            <h2>Anurag Sharma</h2>
+            React 💻 | React-Native 📱 | Python 🐍
+            <a href="./CV-Anurag_Sharma.pdf" download="CV-Anurag_Sharma">Download CV</a>
+        </div>
+        <div class="about">
+            <h2>About</h2>
+            <p>I'm Anurag Sharma</p>    
+            <p>A Computer Science Student, Persuing B.TECH from RKGIT,Ghaziabad.</p>
+            <p>A Rising React and React-Native developer.</p>
+            <p>Complexity varies between O(1) and O(n!)</p>
+            <p>May not be a RankHolder but a HardWorker.</p>
+            <p>Lost a lot of time But never Stopped.</p>
+            <p>Way too simple with no extravogant Taste :)</p>
+        </div>
+        <div class="skill">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>CSS</li>
+                    <li>Django</li>
+                    <li>JavaScript</li>
+                    <li>Machine Learning</li>
+                    <li>SASS</li>
+                    <li>Selenium</li>
+                    <li>React.js</li>
+                    <li>Java</li>
+                    <li>React-redux</li>
+                    <li>MySQL</li>
+                    <li>React-Hooks</li>
+                    <li>PHP</li>
+                    <li>Formik</li>
+                    <li>C</li>
+                    <li>JQuery</li>
+                    <li>Material UI</li>
+                    <li>Node.js</li>
+                    <li>React-Native</li>
+                </ul>
+        </div>
+        <div class="projects">
+            <h2>Projects</h2>
+            <a href="https://anurag-sharma.netlify.app/">
+                <p>Word-Game</p>
+                <img src='./images/word-game.png'>
+            </a>
+            <a href="https://cvcreator.netlify.app/">
+                <p>CV Creator</p>
+                <img src='./images/cv-creator.png'>
+            </a>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Email</p>
+            <img id='mail' src='./logos/google-gmail-seeklogo.com.svg'>
+            <p>Email me at <a href="mailto:anuragsh868@gmail.com">here</a></p>
+            <img src='./logos/github-seeklogo.com.svg'>
+            <p>Github </p>
+            <p>Take a look at my <a href='https://github.com/anuragsharma50'>github profile</a>
+                 to see some <br> of my projects with their source code.</p>
+            <p>LinkedIn</p>
+            <img id='in' src='./logos/linkedin-icon-seeklogo.com.svg'>
+            <p>Connect me to at <a href="https://www.linkedin.com/in/anurag-sharma-70a264172/">LinkedIn</a></p>
+        </div>
+    </div>
+</body>
+
+<script src="../jquery.js" type="text/javascript"></script>
+<script src="../jqueryui/jquery-ui.js" type="text/javascript"></script>
+
+<script>
+        $("#home").click(function() {
+            console.log("scroll");
+            $('html,body').animate({
+                scrollTop: $(".home").offset().top},
+                'slow');
+        });
+        $("#about").click(function() {
+            console.log("scroll");
+            $('html,body').animate({
+                scrollTop: $(".about").offset().top},
+                'slow');
+        });
+
+        $("#skill").click(function() {
+            console.log("scroll");
+            $('html,body').animate({
+                scrollTop: $(".skill").offset().top},
+                'slow');
+        });
+
+        $("#projects").click(function() {
+            console.log("scroll");
+            $('html,body').animate({
+                scrollTop: $(".projects").offset().top},
+                'slow');
+        });
+
+        $("#contact").click(function() {
+            console.log("scroll");
+            $('html,body').animate({
+                scrollTop: $(".contact").offset().top},
+                'slow');
+        });
+
+        function sendMail() {
+            var link = "mailto:me@example.com"
+            + "?cc=myCCaddress@example.com"
+            + "&subject=" + escape("This is my subject")
+            + "&body=" + escape(document.getElementById('myText').value)
+   ;
+            window.location.href = link;
+        }
+</script>
+</html>

@@ -1,0 +1,186 @@
+$background : transparent;
+$color : white;
+
+* {
+    background: url('../images//IMG_20190416_180429\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-size: 79vh;
+    background-color: black;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+@import './header';
+
+.body{
+    box-sizing: border-box;
+
+    .home {
+        color: $color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 99vh;
+        background: $background;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80vw;
+        float: right;
+
+        p{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        h2{
+            margin-top: 0px;
+            font-size: 40px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            padding: 5px;
+            margin: 15px;
+        }
+
+        a:hover{
+            background-color: rgb(158, 154, 154);
+        }
+    }
+
+    .about {
+        color: $color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 99vh;
+        background: $background;
+        width: 70vw;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        float: right;
+
+        h2{
+            margin-top: 75px;
+            font-size: 40px;
+        }
+
+        p{
+            padding: 2px;
+        }
+
+    } 
+
+    .skill {
+        color: $color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 99vh;
+        background: $background;
+        width: 70vw;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        float: right;
+
+        h2{
+            margin-top: 75px;
+            font-size: 40px;
+        }
+
+        ul{
+            display: grid;
+            grid-template-columns: auto auto;
+            li{
+                margin: 10px;
+                margin-left: 50px;
+                margin-right: 50px;
+            }    
+        }
+
+    } 
+
+    .projects {
+        color: $color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 99vh;
+        background: $background;
+        width: 70vw;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        float: right;
+
+        h2{
+            margin-top: 60px;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width:29vw;
+            height:29vh;
+            margin-bottom: 15px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+    }    
+
+    .contact {
+        color: $color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;
+        background: $background;
+        width: 70vw;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        float: right;
+
+        p {
+            font-size: 20px;
+            button{
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        h2{
+            //margin-top: 60px;
+            font-size: 40px;
+            //margin-bottom: 10px;
+        }
+
+        img{
+            margin-top: 50px;
+            width: 50px;   
+            position: absolute;
+            margin-right: 150px;
+            margin-top: 30px;
+        }
+
+        #mail{
+            margin-top: -225px;
+        }
+
+        #in {
+            margin-top: 335px;
+            background:white;
+            width: 30px;
+            padding: 5px;
+        }
+
+        a{
+            color: rgb(238, 20, 20);
+        }
+    } 
+}
+

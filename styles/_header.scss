@@ -1,0 +1,28 @@
+header {
+    margin: 10px;
+    display: flex;
+    background: black;
+    padding: 10px;
+    justify-content: space-between;
+    color: $color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    align-items: center;
+    font-weight: 500;
+    position: fixed;
+    width: 94%;
+
+    .links {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        background: $background;
+
+        button {
+            border: none;
+            background: $background;
+            color: $color;
+            font-size: 15px; 
+        }
+    }
+}
