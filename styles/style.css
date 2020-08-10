@@ -1,0 +1,270 @@
+* {
+  background: url("../images//IMG_20190416_180429 (3).jpg");
+  background-repeat: no-repeat;
+  background-size: 79vh;
+  background-color: black;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+
+header {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  position: fixed;
+  width: 94%;
+}
+
+header .links {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: transparent;
+}
+
+header .links button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+.body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body .home {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 99vh;
+  background: transparent;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80vw;
+  float: right;
+}
+
+.body .home p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.body .home h2 {
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.body .home a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 15px;
+}
+
+.body .home a:hover {
+  background-color: #9e9a9a;
+}
+
+.body .about {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 99vh;
+  background: transparent;
+  width: 70vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+}
+
+.body .about h2 {
+  margin-top: 75px;
+  font-size: 40px;
+}
+
+.body .about p {
+  padding: 2px;
+}
+
+.body .skill {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 99vh;
+  background: transparent;
+  width: 70vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+}
+
+.body .skill h2 {
+  margin-top: 75px;
+  font-size: 40px;
+}
+
+.body .skill ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.body .skill ul li {
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.body .projects {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 99vh;
+  background: transparent;
+  width: 70vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+}
+
+.body .projects h2 {
+  margin-top: 60px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.body .projects img {
+  width: 29vw;
+  height: 29vh;
+  margin-bottom: 15px;
+}
+
+.body .projects a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.body .contact {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 97vh;
+  background: transparent;
+  width: 70vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+}
+
+.body .contact p {
+  font-size: 20px;
+}
+
+.body .contact p button {
+  color: white;
+  font-size: 20px;
+}
+
+.body .contact h2 {
+  font-size: 40px;
+}
+
+.body .contact img {
+  margin-top: 50px;
+  width: 50px;
+  position: absolute;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+.body .contact #mail {
+  margin-top: -225px;
+}
+
+.body .contact #in {
+  margin-top: 335px;
+  background: white;
+  width: 30px;
+  padding: 5px;
+}
+
+.body .contact a {
+  color: #ee1414;
+}
+/*# sourceMappingURL=style.css.map */
